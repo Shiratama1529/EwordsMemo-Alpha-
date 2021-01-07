@@ -1,0 +1,79 @@
+<!DOCTYPE>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="しらたま">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>英単語メモライザー</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="comment-sorry">(2020/09/18) 申し訳ありません。こちらのミスにより、今までに登録した英単語が使えなくなっております。<br>もし、単語の部分が「○○,,,」と表示されている場合は、大変お手数ですが再度登録をお願いします。</div>
+            <a href="https://github.com/Shiratama1529/EwordsMemo">細かい説明はこちらをご確認ください。</a>
+            <h2>英単語メモライザー</h2>
+            <p id="copyright">© 2020 しらたま<a href="https://twitter.com/Shiratama15291" class="fab fa-twitter-square"></a></p>
+        </header>
+        <div id="game-container">
+            <div id="select-panel">
+                <div id="part-of-check">
+                    <div id="heading-select-panel">Start Checking...</div>
+                    <button id="button-start">Spelling</button>
+                    <button id="button-start2">Meaning</button>
+                </div>
+                <button id="button-goset">Setting</button>
+                <br>
+                <button id="button-go-backup">Backup</button>
+            </div>
+            <div id="game-panel">
+                <p id="example-sentence"></p>
+                <p id="example-sentence-japanese"></p>
+                <input class="btn" id="answer" readonly>
+                <button id="button-check">解答</button>
+                <p id="result"></p>
+                <p id="correct-answer"></p>
+                <p id="comment-end"></p>
+            </div>
+            <div id="game-panel2">
+                <div id="example-sentence2"></div>
+                <button class="btn-answer" id="btn-answer1" tabindex="-1"></button>
+                <button class="btn-answer" id="btn-answer2" tabindex="-1"></button>
+                <button class="btn-answer" id="btn-answer3" tabindex="-1"></button>
+                <button class="btn-answer" id="btn-answer4" tabindex="-1"></button>
+                <div id="result2"></div>
+                <div id="correct-answer2"></div>
+                <div id="comment-end2"></div>
+            </div>
+            <div id="backup-panel">
+                <div id="heading-create-backup">バックアップ保存</div>
+                <button id="button-create-backup">ダウンロード</button>
+                <div id="comment-report">単語が存在しません</div>
+                <div id="heading-load-backup">バックアップ読み込み</div>
+                <div id="comment-careful">※現在登録されている単語は削除されます！</div>
+                <input id="button-load-backup" type="file">
+                <div id="comment-load-completed">読み込み完了！</div>
+                <pre id="pre1"></pre>
+            </div>
+            <div id="setting-panel">
+                <input class="setting-padding container-input" id="word" placeholder="単語">
+                <input class="setting-padding container-input" id="example-japanese" placeholder="単語の日本語訳">
+                <br>
+                <button class="setting-padding" id="button-execute">追加</Address></button>
+                <br>
+            </div>
+            <button id="button-back" tabindex="-1">戻る</button>
+            <button id="button-next" tabindex="-1">次へ</button>
+            <div id="comment-list-word">追加された単語</div>
+            <button id="button-all-delete">全て削除</button>
+            <ul id="list-word"></ul>
+            <div id="comment-list-forget-word">間違えた問題</div>
+            <button id="button-hidden-forget-word">答えを非表示</button>
+            <ul id="list-forget-word"></ul>
+            <p id="comment-qnone"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
