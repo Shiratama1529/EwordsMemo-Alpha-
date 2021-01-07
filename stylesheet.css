@@ -1,0 +1,227 @@
+li {
+    list-style: none;
+}
+
+header {
+    text-align: center;
+}
+
+#game-container {
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+}
+
+#select-panel {
+    height: 240px;
+    border: 1px solid black;
+}
+
+#backup-panel {
+    display: none;
+    height: 240px;
+    border: 1px solid black;
+}
+
+#setting-panel {
+    display: none;
+    height: 240px;
+    border: 1px solid black;
+}
+
+#heading-create-backup {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#button-create-backup {
+    margin-bottom: 3px;
+}
+
+#comment-report {
+    font-size: 12px;
+    color: red;
+    padding-bottom: 20px;
+    visibility: hidden;
+}
+
+#heading-load-backup {
+    padding-bottom: 3px;
+}
+
+#comment-careful {
+    font-size: 12px;
+    color: red;
+    padding-bottom: 10px;
+}
+
+#comment-load-completed {
+    padding-top: 15px;
+    font-size: 16px;
+    display: none;
+}
+
+.setting-padding {
+    margin-top: 5px;
+}
+
+#word {
+    margin-top: 75px;
+}
+
+#button-execute {
+    margin-top: 20px;
+}
+
+#completed {
+    width: 300px;
+    height: 96px;
+}
+
+#heading-select-panel {
+    padding: 10px;
+}
+
+#button-start {
+    margin-right: 5px;
+}
+
+#button-goset {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#game-panel {
+    height: 240px;
+    border: 1px solid black;
+    display: none;
+}
+
+#game-panel2 {
+    height: 240px;
+    border: 1px solid black;
+    display: none;
+}
+
+.btn-answer {
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+#example-sentence {
+    font-size: 15px;
+}
+
+#example-sentence-japanese {
+    font-size: 12px;
+}
+
+#example-sentence2 {
+    padding: 5px 0;
+}
+
+#correct-answer2 {
+    color: red;
+    font-size: 15px;
+}
+
+.question {
+    visibility: hidden;
+}
+
+#question-border {
+    border: 1px solid black;
+}
+
+#button-next {
+    float: right;
+    margin-top: 5px;
+    display: none;
+}
+
+#button-back {
+    float: left;
+    margin-top: 5px;
+    display: none;
+}
+
+#comment-qnone {
+    display: none;
+    color: red;
+}
+
+#correct-answer {
+    color: red;
+}
+
+#copyright {
+    font-size: 12px;
+}
+
+.fa-twitter-square {
+    padding-left: 5px;
+    color: deepskyblue;
+    font-size: 20px;
+}
+
+#comment-list-word {
+    padding-top: 40px;
+    display: none;
+}
+
+#list-word {
+    display: none;
+    padding-top: 5px;
+    text-align: right;
+}
+
+#list-word li {
+    padding-right: 60px;
+    vertical-align: top;
+}
+
+#comment-list-forget-word {
+    padding-top: 40px;
+    display: none;
+}
+
+#list-forget-word {
+    display: none;
+    padding-top: 5px;
+}
+
+#list-forget-word li {
+    padding-right: 40px;
+    vertical-align: top;
+    color: red;
+}
+
+.forget-english {
+    font-size: 16px;
+}
+
+.forget-japanese {
+    font-size: 12px;
+}
+
+#comment-sorry {
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 320px;
+    color: blue;
+    font-size: 12px;
+}
+
+#button-all-delete {
+    display: none;
+    margin: 0 auto;
+}
+
+#button-hidden-forget-word {
+    margin: 0 auto;
+    display: none;
+}
+
+.container-input {
+    width: 60%;
+}
