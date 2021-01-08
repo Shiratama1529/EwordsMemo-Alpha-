@@ -5,7 +5,7 @@
         <meta name="author" content="しらたま">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="google-site-verification" content="8Lcr0potAm_6h4XFgn7XLP7q--wI_gPFwq6AIhudpxA" />
-        <title>英単語メモライザー</title>
+        <title>英単語メモライザー（Alpha）</title>
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="stylesheet.css">
         <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
@@ -14,9 +14,9 @@
     <body>
         <header>
             <div id="comment-sorry">(2020/09/18) 申し訳ありません。こちらのミスにより、今までに登録した英単語が使えなくなっております。<br>もし、単語の部分が「○○,,,」と表示されている場合は、大変お手数ですが再度登録をお願いします。</div>
-            <a href="https://github.com/Shiratama1529/EwordsMemo">細かい説明はこちらをご確認ください。</a>
-            <h2>英単語メモライザー</h2>
-            <p id="copyright">© 2020 しらたま<a href="https://twitter.com/Shiratama15291" class="fab fa-twitter-square"></a></p>
+            <a href="https://github.com/Shiratama1529/EwordsMemo" tabindex="-1">細かい説明はこちらをご確認ください。</a>
+            <h2>英単語メモライザー（Alpha）</h2>
+            <p id="copyright">© 2020 しらたま<a href="https://twitter.com/Shiratama15291" class="fab fa-twitter-square" tabindex="-1"></a></p>
         </header>
         <div id="game-container">
             <div id="select-panel">
@@ -61,8 +61,8 @@
                 <pre id="pre1"></pre>
             </div>
             <div id="setting-panel">
-                <input class="setting-padding container-input" id="word" placeholder="単語">
-                <input class="setting-padding container-input" id="example-japanese" placeholder="単語の日本語訳">
+                <input class="setting-padding container-input" id="word" placeholder="単語(17文字まで)" maxlength="17">
+                <input class="setting-padding container-input" id="example-japanese" placeholder="単語の日本語訳(同上)" maxlength="17">
                 <br>
                 <button class="setting-padding" id="button-execute">追加</Address></button>
                 <br>
